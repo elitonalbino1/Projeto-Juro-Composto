@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #00ffea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(10, 10, 10, 0.85);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #00ffea, 0 0 40px #00ffea80;
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #00ffea;
+  text-shadow: 0 0 8px #00ffea;
+}
+
+form label {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  color: #00ffeacc;
+  text-align: left;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 8px;
+  background: #142d35;
+  color: #00ffea;
+  font-size: 1rem;
+  box-shadow: inset 0 0 8px #00ffea44;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form select:focus {
+  background: #0a1f26;
+  box-shadow: 0 0 12px #00ffea;
+  outline: none;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 14px;
+  background: linear-gradient(90deg, #00ffea, #00b3b3);
+  border: none;
+  border-radius: 10px;
+  color: #001f22;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0 0 15px #00ffea;
+  transition: background 0.4s ease, box-shadow 0.4s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #00b3b3, #00ffea);
+  box-shadow: 0 0 25px #00fff0;
+}
+
+#resultado {
+  margin-top: 30px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #00ffea;
+  text-shadow: 0 0 10px #00ffea;
+  min-height: 40px;
+}
